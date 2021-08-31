@@ -1,0 +1,26 @@
+What are your favorite software development tools?
+
+The entire JetBrains suite (+ Android Studio) is definitely up there. They make it simple and easy to do trivial tasks.
+
+How much do you code daily?
+
+For my current day-job, I spend around 5-6 hours reading or writing code (meetings, planning and thinking take up the rest of the time).
+
+When I was at Amazon + Aware Healthcare, that number was likely around 9 hours.
+
+Describe what you believe are the key principles of software engineering.
+
+1. Readability whenever performance isn't a top priority. Code is read so so much more often than it is written. Of course, there are cases where optimal performance is required, but I've found that it's not necessary in the majority of cases.
+2. Testability usually goes hand in hand with readability. The more testable your code is, the more likely it's written in a modular way. Plus testing gives some quick guarantees about the correctness of your code.
+3. Separation of concerns. Reducing the need to refactor when requirements change is pretty important (especially when startups have to iterate quickly). Separation of concerns makes that a lot easier.
+
+How comfortable do you feel reviewing code written by others? What process do you follow when reviewing someone else's code?
+I'm  very comfortable. Half of being a software engineer is reviewing code by others. When I review code, I usually ask the following questions:
+"How would I have implemented this?"
+"Does this code meet the acceptance criteria?"
+"Is this code readable?"
+"Is this code sufficiently tested?"
+"Are there any glaring security flaws?"
+"Does this code respect separation of concerns?"
+"Are business requirements modeled appropriately?"
+"Are interfaces used where necessary to avoid un-necessary implementation lock-in?"
